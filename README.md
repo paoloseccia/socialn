@@ -9,11 +9,11 @@ List of API exposed
     ex. curl -d "My first message" http://localhost:8080/wall/paolo
     
     
- GET /wall/{userName} - return the posted messages by the user
+ GET /wall/{userName} - return the user posted messages
      ex. curl http://localhost:8080/wall/paolo
 
 
- GET /wall/{userName}/following - return the followed people by th user
+ GET /wall/{userName}/following - return the user followed people
     ex. curl http://localhost:8080/wall/paolo/following
     
  
